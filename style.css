@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Decoshadow';
+    src: url(src/font/Cafe24Decoshadow.ttf);
+}
+@font-face {
+    font-family: 'Decobox';
+    src: url(src/font/Cafe24Decobox.ttf);
+}
+@font-face {
+    font-family: 'air';
+    src: url(src/font/Cafe24SsurroundAir.ttf);
+}
+
+* {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(0, 95, 179);
+}
+body {
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.hd-title-section {
+    padding: 10px;
+    background-color: rgb(196, 223, 255);
+}
+
+.hd-title{
+    text-align: center;
+}
+
+.hd-title h1{
+    margin: 0;
+    color: rgb(0, 95, 179);
+    font-family: 'Decoshadow';
+}
+
+.hd-title p {
+    font-family: 'Decobox';
+    margin: 0;
+    color: rgb(108, 155, 243);
+}
+
+.hd-search-bar {
+    padding-right: 10px;
+    text-align: right;
+}
+
+.hd-search-bar input {
+    font-family: 'air';
+    border-radius: 20px;
+    border: 0;
+    text-align: center;
+}
+
+.hd-search-bar button {
+    font-family: 'air';
+    border-radius: 20px;
+    height: 21px;
+    font-size: 12px;
+    background-color: rgb(51, 140, 218);
+    color: rgb(255, 255, 255);
+    border: 0;
+}
+
+.hd-search-bar button:hover {
+    color: rgb(6, 80, 145);
+    background-color: aliceblue;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    height: 2000px;
+}
+
+.sidebar-section {
+    background-color: rgb(130, 178, 221);
+}
+
+.container-bar {
+    width: 170px;
+    height: 50px;
+    text-align:right;
+}
+
+.container-bar ul{
+    display: inline-block;
+    *display:inline;
+    zoom: 1;
+    padding: 0;
+}
+
+.container-bar ul li{
+    float: left;
+    margin-left:-1px;
+    z-index: 1;
+}
+
+
+
+.icon-button {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: block;
+    width: 50px;
+    height: 30px;
+    font-family: 'air';
+    text-align: center;
+}
+
+.icon-button img {
+    filter: invert(18%) sepia(98%) saturate(2069%) hue-rotate(205deg) brightness(98%) contrast(107%);
+}
+
+.icon-button img:hover {
+    filter: invert(90%) sepia(79%) saturate(1100%) hue-rotate(177deg) brightness(104%) contrast(108%);    
+}
+
+.side-menu-section {
+    background-color: aliceblue;
+}
