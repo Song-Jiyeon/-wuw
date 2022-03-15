@@ -24,6 +24,10 @@ ul li {
     list-style: none;
 }
 
+a {
+    font-family: 'air';
+}
+
 .hd-title-section {
     padding: 10px;
     background-color: rgb(196, 223, 255);
@@ -123,4 +127,25 @@ ul li {
 
 .side-menu-section {
     background-color: aliceblue;
+    float: left;
+    width: 200px;
 }
+
+.side-menu-section ul {
+    text-align: left;
+    padding: 10px;
+    margin: 0;
+}
+
+.list-item {
+    margin-bottom: 5px;
+}
+
+.detail-link {
+    background-color: rgb(181, 238, 255);
+}
+
+.detail-item:hover {
+    color: rgb(194, 41, 255);
+}
+
