@@ -141,11 +141,18 @@ a {
     margin-bottom: 5px;
 }
 
-.detail-link {
+.detail-list {
+    margin-bottom: 5px;
+}
+
+.list-item:hover {
     background-color: rgb(181, 238, 255);
 }
 
+.detail-item {
+    color: rgb(88, 177, 255);
+}
 .detail-item:hover {
-    color: rgb(194, 41, 255);
+    color: rgb(255, 0, 157);
 }
 
